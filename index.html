@@ -10,37 +10,49 @@
     }
 
     body {
-      overflow-y: auto;
       background: #000;
+      overflow-y: auto;
+    }
+
+    .image-section {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     img.full {
-      display: block;
-      width: 100vw;
+      width: 70vw;
       height: auto;
+      display: block;
     }
   </style>
 </head>
 <body>
-  <img
-    class="full"
-    src="https://raw.githubusercontent.com/nthduct/valzza/main/portfolio_intro.png"
-    alt="portfolio image"
-  />
-  <img
-      class="full"
+
+  <div class="image-section">
+    <img class="full"
+      src="https://raw.githubusercontent.com/nthduct/valzza/main/portfolio_intro.png"
+      alt="portfolio image" />
+  </div>
+
+  <div class="image-section">
+    <img class="full"
       src="https://raw.githubusercontent.com/nthduct/valzza/main/walkmining_portfolio_v1.png"
-      alt="portfolio image"
-    />
-  <img
-      class="full"
+      alt="portfolio image" />
+  </div>
+
+  <div class="image-section">
+    <img class="full"
       src="https://raw.githubusercontent.com/nthduct/valzza/main/cashdoc_portfolio_v1.png"
-      alt="portfolio image"
-    />
-  <img
-      class="full"
+      alt="portfolio image" />
+  </div>
+
+  <div class="image-section">
+    <img class="full"
       src="https://raw.githubusercontent.com/nthduct/valzza/main/cashwalk_portfolio_v1.png"
-      alt="portfolio image"
-    />
+      alt="portfolio image" />
+  </div>
+
 </body>
 </html>
